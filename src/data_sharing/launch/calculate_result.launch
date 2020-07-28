@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="calculate_result" pkg="data_sharing" type="calculate_result" output="screen">
+    <param name="total_uavs" type="int" value="8"/>
+    <param name="times" type="int" value="5"/>
+    <param name="address" type="str" value="/home/parallels/result/one_isolate/relay"/>
+  </node>
+</launch>

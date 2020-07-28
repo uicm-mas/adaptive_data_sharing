@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<launch>
+
+<group ns="uav0">
+  <node name="ctrl_big_circle" pkg="data_sharing" type="ctrl_big_circle" output="screen">
+  <param name="robot_id" type="int" value="0"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="-1"/>
+  </node>
+</group>
+
+<group ns="uav1">
+  <node name="ctrl_big_circle" pkg="data_sharing" type="ctrl_big_circle" output="screen">
+  <param name="robot_id" type="int" value="1"/>
+  <param name="x_direct" type="double" value="-0.707"/>
+  <param name="y_direct" type="double" value="-0.707"/>
+  </node>
+</group>
+
+<group ns="uav2">
+  <node name="ctrl_big_circle" pkg="data_sharing" type="ctrl_big_circle" output="screen">
+  <param name="robot_id" type="int" value="2"/>
+  <param name="x_direct" type="double" value="-1"/>
+  <param name="y_direct" type="double" value="0"/>
+  </node>
+</group>
+
+<group ns="uav3">
+  <node name="ctrl_big_circle" pkg="data_sharing" type="ctrl_big_circle" output="screen">
+  <param name="robot_id" type="int" value="3"/>
+  <param name="x_direct" type="double" value="-0.707"/>
+  <param name="y_direct" type="double" value="0.707"/>
+  </node>
+</group>
+
+<group ns="uav4">
+  <node name="ctrl_big_circle" pkg="data_sharing" type="ctrl_big_circle" output="screen">
+  <param name="robot_id" type="int" value="4"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="1"/>
+  </node>
+</group>
+
+<group ns="uav5">
+  <node name="ctrl_big_circle" pkg="data_sharing" type="ctrl_big_circle" output="screen">
+  <param name="robot_id" type="int" value="5"/>
+  <param name="x_direct" type="double" value="0.707"/>
+  <param name="y_direct" type="double" value="0.707"/>
+  </node>
+</group>
+
+<group ns="uav6">
+  <node name="ctrl_big_circle" pkg="data_sharing" type="ctrl_big_circle" output="screen">
+  <param name="robot_id" type="int" value="6"/>
+  <param name="x_direct" type="double" value="1"/>
+  <param name="y_direct" type="double" value="0"/>
+  </node>
+</group>
+
+<group ns="uav7">
+  <node name="ctrl_big_circle" pkg="data_sharing" type="ctrl_big_circle" output="screen">
+  <param name="robot_id" type="int" value="7"/>
+  <param name="x_direct" type="double" value="0.707"/>
+  <param name="y_direct" type="double" value="-0.707"/>
+  </node>
+</group>
+
+</launch>

@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<launch>
+
+<group ns="uav0">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="0"/>
+  <param name="run_time" type="int" value="150"/>
+  <param name="x_direct" type="double" value="-0.5"/>
+  <param name="y_direct" type="double" value="-2"/>
+  </node>
+</group>
+
+<group ns="uav1">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="1"/>
+  <param name="run_time" type="int" value="150"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="-2"/>
+  </node>
+</group>
+
+<group ns="uav2">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="2"/>
+  <param name="run_time" type="int" value="150"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="-4.0"/>
+  </node>
+</group>
+
+<group ns="uav3">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="3"/>
+  <param name="run_time" type="int" value="150"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="-2.6"/>
+  </node>
+</group>
+
+<group ns="uav4">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="4"/>
+  <param name="run_time" type="int" value="150"/>
+  <param name="x_direct" type="double" value="-0.6"/>
+  <param name="y_direct" type="double" value="-3.5"/>
+  </node>
+</group>
+
+<group ns="uav5">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="5"/>
+  <param name="run_time" type="int" value="90"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="1.5"/>
+  </node>
+</group>
+
+<group ns="uav6">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="6"/>
+  <param name="run_time" type="int" value="90"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="1.5"/>
+  </node>
+</group>
+
+<group ns="uav7">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="7"/>
+  <param name="run_time" type="int" value="90"/>
+  <param name="x_direct" type="double" value="-0.5"/>
+  <param name="y_direct" type="double" value="2.8"/>
+  </node>
+</group>
+
+<group ns="uav8">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="8"/>
+  <param name="run_time" type="int" value="90"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="5.0"/>
+  </node>
+</group>
+
+<group ns="uav9">
+  <node name="ctrl_subswarm" pkg="data_sharing" type="ctrl_subswarm" output="screen">
+  <param name="robot_id" type="int" value="9"/>
+  <param name="run_time" type="int" value="90"/>
+  <param name="x_direct" type="double" value="0"/>
+  <param name="y_direct" type="double" value="2.5"/>
+  </node>
+</group>
+
+</launch>

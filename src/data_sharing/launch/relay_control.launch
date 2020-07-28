@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+<node name="relay_control" pkg="data_sharing" type="relay_control" output="screen">
+  <param name="total_robots" type="int" value="8"/>
+</node>
+
+</launch>

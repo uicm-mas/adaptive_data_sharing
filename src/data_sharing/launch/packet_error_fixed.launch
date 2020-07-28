@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="packet_error_fixed" pkg="data_sharing" type="packet_error_fixed" output="screen">
+    <param name="total_robots" type="int" value="8"/>
+    <param name="rate" type="int" value="100"/>
+    <param name="per" type="double" value="0.7"/>
+  </node>
+</launch>

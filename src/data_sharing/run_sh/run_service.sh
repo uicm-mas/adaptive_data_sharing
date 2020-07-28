@@ -1,0 +1,21 @@
+#启动机器人对应的rosservice
+rosservice call /uav0/enable_motors "enable: true";
+sleep 2;
+rosservice call /uav1/enable_motors "enable: true";
+sleep 2;
+rosservice call /uav2/enable_motors "enable: true";
+sleep 2;
+rosservice call /uav3/enable_motors "enable: true";
+sleep 2;
+rosservice call /uav4/enable_motors "enable: true";
+sleep 2;
+rosservice call /uav5/enable_motors "enable: true";
+sleep 2;
+rosservice call /uav6/enable_motors "enable: true";
+sleep 2;
+rosservice call /uav7/enable_motors "enable: true";
+#sleep 2;
+#rosservice call /uav8/enable_motors "enable: true";
+#sleep 2;
+#rosservice call /uav9/enable_motors "enable: true";
+#sleep 2;

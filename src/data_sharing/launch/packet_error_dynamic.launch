@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+<node name="packet_error_dynamic" pkg="data_sharing" type="packet_error_dynamic" output="screen">
+<param name="total_robots" type="int" value="8"/>
+<param name="rate" type="int" value="100"/>
+</node>
+
+</launch>

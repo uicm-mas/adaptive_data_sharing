@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<launch>
+
+<arg name="total_uavs"  value="8"/>
+<arg name="address"  value="/home/parallels/result_test/small_cicle/eager"/>
+<arg name="frequence"  value="20"/>
+
+<group ns="uav0">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="0"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="str" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<group ns="uav1">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="1"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<group ns="uav2">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="2"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<group ns="uav3">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="3"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<group ns="uav4">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="4"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<group ns="uav5">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="5"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<group ns="uav6">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="6"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<group ns="uav7">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="7"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<!--<group ns="uav8">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="8"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>
+
+<group ns="uav9">
+  <node name="eager_asyn" pkg="data_sharing" type="eager_asyn" output="screen">
+  <param name="robot_id" type="int" value="9"/>
+  <param name="total_uavs" type="int" value="$(arg total_uavs)"/>
+  <param name="address" type="int" value="$(arg address)"/>
+  <param name="frequence" type="int" value="$(arg frequence)"/>
+  </node>
+</group>-->
+
+</launch>
