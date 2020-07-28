@@ -1,7 +1,7 @@
 安装编译：
 一. 安装编译hector_quadrotor_tutorial
 data_sharing包依赖于hector_quadrotor_tutorial包，所以先安装它。目前最新版本是Kinetic版。
-安装教程：http://wiki.ros.org/hector_quadrotor/Tutorials/Quadrotor%20outdoor%20flight%20demo，使用Install from source安装编译。
+安装教程：http://wiki.ros.org/hector_quadrotor/Tutorials/Quadrotor%20outdoor%20flight%20demo ，使用Install from source安装编译。
 安装命令：
 mkdir ~/hector_quadrotor_tutorial
 cd ~/hector_quadrotor_tutorial
